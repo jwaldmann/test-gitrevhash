@@ -1,0 +1,7 @@
+resolver: lts-15.8
+packages:
+- .
+extra-deps:
+- git: https://gitlab.imn.htwk-leipzig.de/waldmann/cyp
+  commit: 234a22bff0437e9e357a251125fcfb39da83b5ee
+- haskell-src-exts-simple-1.22.0.0@sha256:f4f8cd392c73693d9c0ccf6dbab9469348427a3a649123357a4fa4711d127bfa,1519

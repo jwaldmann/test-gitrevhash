@@ -1,0 +1,9 @@
+cabal-version:       >=1.10
+name:                test-gitrevhash
+version:             0.1.0.0
+build-type:          Simple
+
+executable test-gitrevhash
+  main-is:             Main.hs
+  build-depends:       base >=4.13 && <4.14, cyp
+  default-language:    Haskell2010
